@@ -42,11 +42,7 @@ function arr_to_string($id,$arr,$g='-'){
 		}
 		$str .= '<option value="'.$v['id'].'" '.$select.'>'.$f.$g.$v['cate_name'].'</option>';
 		if(!empty($v['children'])){			
-<<<<<<< HEAD
 			$str .= arr_to_string($id,$v['children'], $g.'-');
-=======
-			$str .= arr_to_string($id,$v['children'], $g."-");
->>>>>>> release-20170615
 		}
 	}
 	return $str;
