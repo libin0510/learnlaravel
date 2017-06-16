@@ -23,6 +23,10 @@ class ComposerStaticInit743ab3e0542d0db5b0ef4d3f46737160
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'Y' => 
+        array (
+            'YuanChao\\Editor\\' => 16,
+        ),
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
@@ -102,6 +106,10 @@ class ComposerStaticInit743ab3e0542d0db5b0ef4d3f46737160
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'YuanChao\\Editor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yuanchao/laravel-5-markdown-editor/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -3217,6 +3225,10 @@ class ComposerStaticInit743ab3e0542d0db5b0ef4d3f46737160
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
+        'YuanChao\\Editor\\EndaEditor' => __DIR__ . '/..' . '/yuanchao/laravel-5-markdown-editor/src/EndaEditor.php',
+        'YuanChao\\Editor\\EndaEditorServiceProvider' => __DIR__ . '/..' . '/yuanchao/laravel-5-markdown-editor/src/EndaEditorServiceProvider.php',
+        'YuanChao\\Editor\\Facade\\EndaEditorFacade' => __DIR__ . '/..' . '/yuanchao/laravel-5-markdown-editor/src/Facade/EndaEditorFacade.php',
+        'YuanChao\\Editor\\Parsedown' => __DIR__ . '/..' . '/yuanchao/laravel-5-markdown-editor/src/Parsedown.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',

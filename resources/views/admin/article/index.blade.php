@@ -23,7 +23,7 @@
                             <h4>{{ $article->title }}</h4>
                             <div class="content">
                                 <p>
-                                    {{ $article->body }}
+                                    {!! EndaEditor::MarkDecode($article->body) !!}
                                 </p>
                             </div>
                         </div>

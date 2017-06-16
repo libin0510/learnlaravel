@@ -16,7 +16,7 @@
                     </a>
                 </div>
                 <div class="body">
-                    <p>{{ $article->body }}</p>
+                    <p>{!! EndaEditor::MarkDecode($article->body) !!}</p>
                 </div>
             </li>
             @endforeach

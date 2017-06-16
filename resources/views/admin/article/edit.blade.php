@@ -3,6 +3,7 @@
 @section('left-article', 'active')
 
 @section('main')
+@include('editor::head')
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -26,7 +27,9 @@
                         {{!! $cate_list !!}}
                         </select>
                         <br>
-                        <textarea name="body" rows="10" class="form-control" required="required">{{$article->body}}</textarea>
+                        <div class="editor">
+                        <textarea name="body" id='myEditor' rows="10" class="form-control" required="required">{{$article->body}}</textarea>
+                        </div>
                         <br>
                         <button class="btn btn-lg btn-info">编辑文章</button>
                     </form>

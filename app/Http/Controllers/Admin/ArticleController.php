@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Article;
 use App\Catetory;
+use EndaEditor;
 
 class ArticleController extends Controller
 {
