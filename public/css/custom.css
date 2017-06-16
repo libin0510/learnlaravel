@@ -1,0 +1,115 @@
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei"}
+.h25{height: 25px}
+
+.m0{margin: 0;}
+.ml10{margin-left: 10px}
+.ml20{margin-left: 20px}
+.mt10{margin-top: 10px}
+.mt16{margin-top: 16px}
+.mt20{margin-top: 20px}
+.mt24{margin-top: 24px}
+.mt30{margin-top: 30px}
+.mb30{margin-bottom: 30px}
+.mb20{margin-bottom: 20px}
+.mb10{margin-bottom: 10px}
+.mb5{margin-bottom: 5px}
+.mr10{margin-right: 10px}
+
+.pd0{padding: 0}
+.pdt7{padding-top: 7px}
+.pdt15{padding-top: 15px}
+.pdb5{padding-bottom: 5px}
+
+.fs12{font-size: 12px}
+.fs18{font-size: 18px}
+.fs32{font-size: 32px}
+.fs39{font-size: 39px}
+
+.lh25{line-height: 25px}
+
+.bg-primary{background-color: #3c8dbc}
+
+/* 侧部导航 */
+.sidebar-menu-left {
+    display: none;
+}
+
+
+/* 重写信息框 */
+.bq-info-box-icon {
+    line-height: 16px;
+    padding-top: 15px;
+    width: 110px;
+}
+.bq-info-box-icon span {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.bq-info-box-icon small {
+    font-size: 13px;
+}
+.bq-info-box-number {
+    font-size: 32px;
+    margin-top: 18px;
+    text-align: center;
+    text-indent: 0;
+    color: #666;
+}
+
+/* 重写分页按钮 */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #222d32;
+    border-color: #222d32;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #222d32;
+}
+
+.bq-bg-black{background-color: #222d32; color: #fff}
+
+.bq-box-black{border-top-color: #222d32}
+
+/* 黑色按钮 */
+.bq-btn-black {
+  color: #fff;
+  background-color: #222d32;
+  border-color: #222d32;
+}
+.bq-btn-black:focus,
+.bq-btn-black.focus {
+  color: #fff;
+  background-color: #1e282c;
+  border-color: #1e282c;
+}
+.bq-btn-black:hover {
+  color: #fff;
+  background-color: #111619;
+  border-color: #1e282c;
+}
+
+
+
+/* 旋转动画 */
+@-webkit-keyframes rotate {
+    from{-webkit-transform:rotate(0deg)}
+    to{-webkit-transform:rotate(360deg)}
+}
+@-moz-keyframes rotate{
+    from{-moz-transform:rotate(0deg)}
+    to{-moz-transform:rotate(360deg)}
+}
+@-ms-keyframes rotate{
+    from{-ms-transform:rotate(0deg)}
+    to{-ms-transform:rotate(360deg)}
+}
+@-o-keyframes rotate{
+    from{-o-transform:rotate(0deg)}
+    to{-o-transform:rotate(360deg)}
+}
+
+.rotate-animation {
+    animation: 1s linear 0s normal none infinite rotate;
+    -webkit-animation: 1s linear 0s normal none infinite rotate;
+}
+
+

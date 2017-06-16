@@ -1,6 +1,8 @@
-@extends('layouts.app')
+@extends('admin.home')
 
-@section('content')
+@section('left-comment', 'active')
+
+@section('main')
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
