@@ -29,7 +29,7 @@ class CatetoryController extends Controller
     public function store(Request $request){
     	$this->validate($request,[
     			'cate_name'=>"required",
-    			'pid' =>"required",
+    			'pid' =>"required | numeric",
     		]);
     	$catetory = new Catetory;
     	$catetory->cate_name = $request->get('cate_name');
@@ -45,7 +45,7 @@ class CatetoryController extends Controller
     public function update(Request $request,$id){
     	$this->validate($request,[
     			'cate_name'=>"required",
-    			'pid' =>"required",
+    			'pid' =>"required | numeric",
     		]);
     	$catetory = Catetory::findorfail($id);
     	$catetory->cate_name = $request->get('cate_name');

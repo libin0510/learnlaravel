@@ -22,7 +22,7 @@ class ArticleController extends Controller
     public function store(Request $request){
     	$this->validate($request, [
     		'title'=>'required|unique:articles|max:255',
-            'cate_id'=>'required',
+            'cate_id'=>'required | numeric',
     		'body'=>'required',
     		]);
 
@@ -49,7 +49,7 @@ class ArticleController extends Controller
     public function update($id, Request $request){
     	$this->validate($request,[
     		'title'=>'required|max:255', 
-            'cate_id'=>'required',
+            'cate_id'=>'required | numeric',
     		'body' =>'required',            
     		]);
     	$article = Article::findOrFail($id);
